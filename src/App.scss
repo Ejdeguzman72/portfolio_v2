@@ -1,0 +1,425 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+hr {
+  color: white;
+}
+
+#col1 {
+  background-color: black;
+  opacity: 0.9;
+
+}
+
+#id {
+  text-align: center;
+  margin: auto;
+}
+/* ------------------------------------------------------------------------- */
+/* nav barcomponent css */
+
+#nav-bar-link {
+  color: white;
+}
+
+/* --------------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------------- */
+/* home component css */
+
+.split {
+  height: 100%;
+  width: 40%;
+  position: fixed;
+  /* z-index: 1; */
+  /* top: 0; */
+  /* overflow-x:  hidden; */
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-image: url('./assets/unnamed.jpg');
+  color: white;
+  width: 60%;
+}
+
+.right {
+  /* background-image: url('./assets/images.jpg'); */
+  right: 0;
+  background-color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 700px;
+  border-radius: 50%;
+}
+
+.blink{
+  width:200px;
+  height: 50px;
+    background-color: magenta;
+  padding: 15px;	
+  text-align: center;
+  line-height: 50px;
+}
+span{
+  font-size: 25px;
+  font-family: cursive;
+  color: white;
+  animation: blink 1s linear infinite;
+}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+
+#white-button {
+  color: white;
+}
+
+// .card {
+//   box-shadow: 5px 10px;
+//   border: 1px solid;
+//   color: white;
+// }
+
+/* ------------------------------------------------------------------------------ */
+/*about-me background */
+
+#hero-about-me-background {
+  background-image: url('./assets/CWVgt8S.jpg');
+  background-size: cover;
+  background-position: center center;
+  top: 0;
+  bottom: 0;
+  height: 500vh;
+  width: 100%;
+  z-index: -10;
+  margin: 0;
+  font-family: monospace;
+}
+
+#about-me-title {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-family: cursive;
+}
+
+.about-me-container-box-shadow {
+  box-shadow: 5px 10px;
+  border: 1px solid;
+  color: white;
+  overflow-wrap: break-word;
+}
+
+.about-me-container {
+  background-color: black;
+  overflow-wrap: break-word;
+  padding: 20px;
+  opacity: 0.8;
+  width: 100%;
+}
+
+.about-me-container-row1 {
+  background-color: black;
+  overflow-wrap: break-word;
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  box-shadow: 5px 10px;
+  border: 1px solid;
+  color: white;
+
+  // opacity: 0.8;
+}
+
+.about-me-container-row2 {
+  background-color: #282828;
+  overflow-wrap: break-word;
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  box-shadow: 5px 10px;
+  border: 1px solid;
+  color: white;
+  // opacity: 0.8;
+}
+
+#about-me-title-overlay {
+  background-color: black;
+  padding: 15px;
+  opacity: 0.8;
+}
+
+hr {
+  color: white;
+}
+
+
+#column-text-color {
+  color: white;
+  font-size: 20px;
+  overflow: wrap;
+}
+
+#image {
+  width: 20;
+  height: 20;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* Coding projects */
+
+#hero-coding-projects-background {
+  background-image: url('./assets/CWVgt8S.jpg');
+  background-size: cover;
+  background-position: center center;
+  top: 0;
+  bottom: 0;
+  height: 700vh;
+  width: 100%;
+  z-index: -10;
+  margin: 0;
+  // opacity: 0.9;
+  font-family: monospace;
+}
+
+#coding-projects-container {
+  background-color: black;
+  overflow-wrap: break-word;
+  // display: flex;
+  height: 150vh;
+  box-shadow: 5px 10px;
+  border: 1px solid;
+  color: white;
+  padding: 15px;
+  // opacity:  0.8;
+}
+
+#coding-projects-container1 {
+  background-color: black;
+  // overflow-wrap: break-word;
+  // display: flex;
+  height: 700vh;
+  box-shadow: 5px 10px;
+  border: 1px solid;
+  color: white;
+  padding: 15px;
+  // opacity:  0.8;
+}
+
+#coding-projects-container2 {
+  background-color: black;
+  // overflow-wrap: break-word;
+  // display: flex;
+  height: 700vh;
+  box-shadow: 5px 10px;
+  border: 1px solid;
+  color: white;
+  padding: 15px;
+  // opacity:  0.8;
+}
+
+#coding-projects-container3 {
+  background-color: black;
+  // overflow-wrap: break-word;
+  // display: flex;
+  height: 450vh;
+  box-shadow: 5px 10px;
+  border: 1px solid;
+  color: white;
+  padding: 15px;
+  // opacity:  0.8;
+}
+
+#coding-projects-title {
+  color: white;
+  font-family: cursive;
+  text-align: center;
+}
+
+#coding-projects-text {
+  padding: 15px;
+  display: flex;
+  overflow-wrap: break-word;
+}
+
+.spring-react-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+  
+}
+
+.spring-react-card:hover {
+  box-shadow: 0 8px 16px 0 rgba (0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+#hero-dsa-project-background {
+  background-image: url('./assets/CWVgt8S.jpg');
+  background-size: cover;
+  background-position: center center;
+  top: 0;
+  bottom: 0;
+  height: 950vh;
+  width: 100%;
+  z-index: -10;
+  margin: 0;
+  // opacity: 0.9;
+  font-family: monospace;
+}
+
+#hero-car-rental-project-background {
+  background-image: url('./assets/CWVgt8S.jpg');
+  background-size: cover;
+  background-position: center center;
+  top: 0;
+  bottom: 0;
+  height: 200vh;
+  width: auto;
+  z-index: -10;
+  // margin: 0;
+  // opacity: 0.9;
+  font-family: monospace;
+}
+
+#hero-ers-project-background {
+  background-image: url('./assets/CWVgt8S.jpg');
+  background-size: cover;
+  background-position: center center;
+  top: 0;
+  bottom: 0;
+  height: 900vh;
+  width: 100%;
+  z-index: -10;
+  margin: 0;
+  // opacity: 0.9;
+  font-family: monospace;
+}
+
+#hero-C-sharp-projects-background {
+  background-image: url('./assets/CWVgt8S.jpg');
+  background-size: cover;
+  background-position: center center;
+  top: 0;
+  bottom: 0;
+  height: 500vh;
+  width: 100%;
+  z-index: -10;
+  margin: 0;
+  // opacity: 0.9;
+  font-family: monospace;
+}
+
+#hero-php-projects-background {
+  background-image: url('./assets/CWVgt8S.jpg');
+  background-size: cover;
+  background-position: center center;
+  top: 0;
+  bottom: 0;
+  height: 950vh;
+  width: 100%;
+  z-index: -10;
+  margin: 0;
+  // opacity: 0.9;
+  font-family: monospace;
+}
+
+#hero-sql-projects-background {
+  background-image: url('./assets/CWVgt8S.jpg');
+  background-size: cover;
+  background-position: center center;
+  top: 0;
+  bottom: 0;
+  height: 800vh;
+  width: 100%;
+  z-index: -10;
+  margin: 0;
+  // opacity: 0.9;
+  font-family: monospace;
+}
+
+/* Contact Me CSS----------------------------------------------------------- */
+
+#contact-me-title {
+  text-align: center;
+  color: white;
+  font-family: cursive;
+}
+
+#hero-contact-me-background {
+  background-image: url('./assets/CWVgt8S.jpg');
+  background-size: cover;
+  background-position: center center;
+  top: 0;
+  bottom: 0;
+  height: 200vh;
+  width: 100%;
+  z-index: -10;
+  margin: 0;
+  // opacity: 0.9;
+  font-family: monospace;
+}
+
+#contact-me-white-font-color  {
+  color: white;
+  font-size: 25px;
+}
