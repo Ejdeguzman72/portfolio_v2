@@ -7,6 +7,7 @@ import { SQLProjectsCardComponent } from './project-cards/SQL-Projects-Component
 import { PHPProjectsCardComponent } from './project-cards/PHP-Projects-Component';
 import { TypescriptReactProjectsCardComponent } from './project-cards/Typescript-React-Projects-Component';
 import { Helmet } from 'react-helmet';
+import { ReactjsProjectsCardComponent } from './project-cards/reactjs-projects-component';
 
 export class CodingProjectsComponent extends React.Component<any, any> {
     constructor(props: any) {
@@ -56,6 +57,23 @@ export class CodingProjectsComponent extends React.Component<any, any> {
                         <br></br>
                         <br></br>
                         <Row className="about-me-container-row1">
+                            <Col md={5}  id="column-text-color">
+                                <ReactjsProjectsCardComponent />
+                                <br></br>
+                            </Col>
+                            <Col  md={7} id="column-text-color">
+                                <div id="coding-projects-text">
+                                    <p>This section covers React.js projects. These are simple applications meant to solidify concepts of the React frameowkr.
+                                        Node.js was also used to build the applications. React.js allows user to manage state and create dynamic and responsive 
+                                        web applications. For more interaction, check out Fun React Projects located in the menu,  which is hosted on
+                                        AWS s3 bucket. 
+                                    </p>
+                                </div>
+                            </Col>
+                        </Row>
+                        <br></br>
+                        <br></br>
+                        {/* <Row className="about-me-container-row1">
                             <Col md={5} id="column-text-color">
                                 <CSharpProjectsCardComponent />
                                 <br></br>
@@ -66,7 +84,7 @@ export class CodingProjectsComponent extends React.Component<any, any> {
                                     backend being built in C# for simple use applications.</p>
                                 </div>
                             </Col>
-                        </Row>
+                        </Row> */}
                         <br></br>
                         <br></br>
                         <Row className="about-me-container-row2">

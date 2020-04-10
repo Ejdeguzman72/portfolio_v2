@@ -7,9 +7,9 @@ export class GitHubIconComponent extends React.Component<any,any> {
         return(
             <div>
                 <i>
-                    {/* <Link to="https://github.com/Ejdeguzman72"> */}
+                    <a href="https://github.com/Ejdeguzman72">
                         <img src={GithubIcon}/>
-                    {/* </Link> */}
+                    </a>
                 </i>
             </div>
         )

@@ -23,6 +23,10 @@ import { RegistrationSystemPageComponent } from './components/coding-projects/pr
 import { PaintAndLaborCalculatorPHPPageComponent } from './components/coding-projects/project-page/php-project-page-component/paint-and-labor-calculator-php-page-component';
 import { BookKeepingApplicationPageComponent } from './components/coding-projects/project-page/php-project-page-component/book-keeping-application-page-component';
 import ContactForm from './components/contact-me/contact-me-component';
+import { ToDoListPageComponent } from './components/coding-projects/project-page/reactjs-projects/todolist-page-component';
+import { TipCalculatorPageComponent } from './components/coding-projects/project-page/reactjs-projects/tip-calculator-page-component';
+import { PokedexPageComponent } from './components/coding-projects/project-page/reactjs-projects/pokedex-page-component';
+import { CheckInPageComponent } from './components/coding-projects/project-page/reactjs-projects/checkin-page-component';
 
 function App() {
   return (
@@ -46,8 +50,13 @@ function App() {
             <Route path="/registration-system" exact component={RegistrationSystemPageComponent} />
             <Route path="/program1" exact component={PaintAndLaborCalculatorPHPPageComponent} />
             <Route path="/book-keeping-application" exact component={BookKeepingApplicationPageComponent} />
+            <Route path="/to-do-list" exact component={ToDoListPageComponent} />
+            <Route path="/tip-calculator" exact component={TipCalculatorPageComponent} />
+            <Route path="/pokedex" exact component={PokedexPageComponent} />
+            <Route path="/check-in" exact component={CheckInPageComponent} />
             <Route path="/resume" component={ResumeComponent} />
             <Route path="/contact-me" component={ContactForm} />
+            <Route path="https://fun-react-projects-bucket.s3.us-east-2.amazonaws.com/index.html" />
             <Route path="https://github.com/Ejdeguzman72" />
             <Route path="https://www.linkedin.com/in/edgarjdeguzman" />
             <Route component={HomeComponent}  />
