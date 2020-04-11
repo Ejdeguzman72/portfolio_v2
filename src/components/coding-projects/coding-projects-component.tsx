@@ -22,6 +22,7 @@ export class CodingProjectsComponent extends React.Component<any, any> {
                 </Helmet>
                 <NavBarComponent />
                 <div id="hero-coding-projects-background">
+                    <br></br>
                     <h1 id="coding-projects-title">Coding  Projects</h1>
                     <hr color="white"></hr>
                     <Container>

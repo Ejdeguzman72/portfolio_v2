@@ -24,12 +24,12 @@ export class ResumeComponent extends React.Component {
                 <Helmet>
                     <title>Resume</title>
                 </Helmet>
-                <div id="center">
+                <div>
                     <Document
                         file={Resume}
                         onLoadSuccess={this.onDocucmentLoadSuccess}
                     >
-                        <Page pageNumber={pageNumber} height={1200} />
+                        <Page pageNumber={pageNumber} numPages={numPages} height={1000} />
                     </Document>
                 </div>
             </div>
