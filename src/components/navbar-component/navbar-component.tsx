@@ -54,7 +54,7 @@ export class NavBarComponent extends React.Component<any, any> {
                             </Button>
                             <Button variant="outline-info" id="navbar-button">
                                 <a href="https://fun-react-projects-bucket.s3.us-east-2.amazonaws.com/index.html" >
-                                    Fun React Projects
+                                    Not Fun React Projects
                             </a>
                             </Button>
                             <Link to="contact-me" id="navbar-button">
