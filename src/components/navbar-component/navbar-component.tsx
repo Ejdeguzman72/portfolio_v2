@@ -15,47 +15,52 @@ export class NavBarComponent extends React.Component<any, any> {
     render() {
         return (
             <div>
-               <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-               <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mr-auto">
-                        <Nav.Link id="nav-bar-link">
-                            <Link to="/home" id="nav-bar-link">
-                                Home
+                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="mr-auto">
+                            <Nav.Link id="nav-bar-link">
+                                <Link to="/home" id="nav-bar-link">
+                                    Home
                             </Link>
-                        </Nav.Link>
-                        <Nav.Link>
-                            <Link to="/about-me" id="nav-bar-link">
-                                About Me
+                            </Nav.Link>
+                            <Nav.Link>
+                                <Link to="/about-me" id="nav-bar-link">
+                                    About Me
                             </Link>
-                        </Nav.Link>
-                        <Nav.Link >
-                            <Link to="/coding-projects" id="nav-bar-link">
-                                Coding Projects
+                            </Nav.Link>
+                            <Nav.Link >
+                                <Link to="/coding-projects" id="nav-bar-link">
+                                    Coding Projects
                             </Link>
-                        </Nav.Link>
-                        <Nav.Link id="nav-bar-link">
-                            <Link to="/resume" id="nav-bar-link">
-                                Resume
+                            </Nav.Link>
+                            <Nav.Link id="nav-bar-link">
+                                <Link to="/resume" id="nav-bar-link">
+                                    Resume
                             </Link>
-                        </Nav.Link>
-                        {/* <Nav.Link id="nav-bar-link">
+                            </Nav.Link>
+                            {/* <Nav.Link id="nav-bar-link">
                             <GitHubIconComponent expand="lg" />
                         </Nav.Link>
                         <Nav.Link id="nav-bar-link">
                             <LinkedInIconComponent />
                         </Nav.Link> */}
-                    </Nav>
-                    <Form inline>
-                        <Button variant="outline-info" >
-                            <a href="https://fun-react-projects-bucket.s3.us-east-2.amazonaws.com/index.html" >
-                                Fun React Projects
+                        </Nav>
+                        <Form inline>
+                            <Button variant="outline-info" id="navbar-button">
+                                <a href="https://project-dsa-bucket.s3.us-east-2.amazonaws.com/index.html#/" >
+                                    Project-DSA
                             </a>
-                        </Button>
-                        <Link to="contact-me" id="navbar-button">
-                            <Button variant="outline-info" >Contact Me</Button  >
-                        </Link>
-                    </Form>
+                            </Button>
+                            <Button variant="outline-info" id="navbar-button">
+                                <a href="https://fun-react-projects-bucket.s3.us-east-2.amazonaws.com/index.html" >
+                                    Fun React Projects
+                            </a>
+                            </Button>
+                            <Link to="contact-me" id="navbar-button">
+                                <Button variant="outline-info" >Contact Me</Button  >
+                            </Link>
+                        </Form>
                     </Navbar.Collapse>
                 </Navbar>
             </div>
