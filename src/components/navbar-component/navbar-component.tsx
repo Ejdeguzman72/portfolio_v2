@@ -49,7 +49,7 @@ export class NavBarComponent extends React.Component<any, any> {
                         <Form inline>
                             <Button variant="outline-info" id="navbar-button">
                                 <a href="http://project-dsa-bucket.s3.us-east-2.amazonaws.com/index.html#/" >
-                                    Project-DSA
+                                    EJ-Application
                             </a>
                             </Button>
                             <Button variant="outline-info" id="navbar-button">
