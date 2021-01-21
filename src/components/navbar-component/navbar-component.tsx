@@ -19,7 +19,7 @@ export class NavBarComponent extends React.Component<any, any> {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link id="nav-bar-link">
+                            <Nav.Link>
                                 <Link to="/home" id="nav-bar-link">
                                     Home
                             </Link>
@@ -29,12 +29,12 @@ export class NavBarComponent extends React.Component<any, any> {
                                     About Me
                             </Link>
                             </Nav.Link>
-                            <Nav.Link >
+                            <Nav.Link>
                                 <Link to="/coding-projects" id="nav-bar-link">
                                     Coding Projects
                             </Link>
                             </Nav.Link>
-                            <Nav.Link id="nav-bar-link">
+                            <Nav.Link>
                                 <Link to="/resume" id="nav-bar-link">
                                     Resume
                             </Link>
