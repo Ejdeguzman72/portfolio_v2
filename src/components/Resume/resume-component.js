@@ -4,6 +4,7 @@ import { Page } from 'react-pdf/dist/entry.webpack';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import Resume from '../Resume/edgar_resume.pdf';
 import { Helmet } from 'react-helmet';
+import { NavBarComponent } from '../navbar-component/navbar-component';
 
 export class ResumeComponent extends React.Component {
     state = {
@@ -24,6 +25,7 @@ export class ResumeComponent extends React.Component {
                 <Helmet>
                     <title>Resume</title>
                 </Helmet>
+                <NavBarComponent />
                 <div>
                     <Document
                         file={Resume}
