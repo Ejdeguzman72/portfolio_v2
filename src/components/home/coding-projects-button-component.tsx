@@ -14,7 +14,7 @@ export class CodingProjectsButtonComponent extends React.Component<any,any> {
             <div>
                 <Button variant="secondary" size="lg" block id="white-button">
                     <Link to="/coding-projects" id="white-button">
-                        Coding Projects
+                        Projects
                     </Link>
                 </Button>
             </div>
