@@ -30,19 +30,19 @@ export class HomeComponent extends React.Component<any, any>  {
                 <div className="split right">
                     <div className="centered">
                         <div className="form-row">
-                            <HomeTabComponent />
+                            <HomeButtonComponent />
                         </div>
                         <br></br>
                         <div className="form-row">
-                            <AboutMeTabComponent/>
+                            <AboutMeButtonComponent />
                         </div>
                         <br></br>
                         <div className="form-row">
-                            <CodingProjectsTabComponent />
+                            <CodingProjectsButtonComponent />
                         </div>
                         <br></br>
                         <div className="form-row">
-                            <ResumeTabComponent />
+                            <ResumeButtonComponent />
                         </div>
                         {/* <div className="form-row">
                         <div className="blink"><span>blinking text</span></div>

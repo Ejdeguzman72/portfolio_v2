@@ -122,6 +122,10 @@ span{
 
 #white-button {
   color: white;
+  width: 150px;
+  background-color: rgb(32,32,32);
+  padding: 10px;
+  border-radius: 50px;
 }
 
 // .card {
@@ -449,7 +453,7 @@ img {
   background-color: rgb(32,32,32);
   font-family: fantasy;
   font-size: 50px;
-  width: 400px;
+  width: 1em;
   color: white;
   margin: 5px;
   border-radius: 50px;

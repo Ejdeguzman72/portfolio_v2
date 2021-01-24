@@ -10,7 +10,7 @@ export class  HomeButtonComponent extends React.Component<any,any> {
     render() {
         return (
             <div>
-                <Button variant="secondary" size="lg" block id="white-button">
+                <Button variant="secondary" size="lg" id="white-button">
                     <Link to="/home" id="white-button">
                         Home 
                     </Link>
