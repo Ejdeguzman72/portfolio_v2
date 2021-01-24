@@ -47,7 +47,7 @@ export class NavBarComponent extends React.Component<any, any> {
                         </Nav.Link> */}
                         </Nav>
                         <Form inline>
-                            <Button variant="outline-info" id="navbar-button">
+                            {/* <Button variant="outline-info" id="navbar-button">
                                 <a href="http://project-dsa-bucket.s3.us-east-2.amazonaws.com/index.html#/" >
                                     EJ-Application
                             </a>
@@ -56,7 +56,7 @@ export class NavBarComponent extends React.Component<any, any> {
                                 <a href="https://fun-react-projects-bucket.s3.us-east-2.amazonaws.com/index.html" >
                                     Fun React Projects
                             </a>
-                            </Button>
+                            </Button> */}
                             <Link to="contact-me" id="navbar-button">
                                 <Button variant="outline-info" >Contact Me</Button  >
                             </Link>
